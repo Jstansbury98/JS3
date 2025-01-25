@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unity Arts Manchester</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333; }
+        header { background-color: #4CAF50; color: white; padding: 20px; text-align: center; }
+        .container { padding: 20px; }
+        footer { background-color: #333; color: white; text-align: center; padding: 10px; width: 100%; }
+        a { color: #4CAF50; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        nav { background-color: #333; padding: 10px; text-align: center; }
+        nav a { color: white; margin: 0 15px; }
+        nav a:hover { text-decoration: underline; }
+        form { max-width: 400px; margin: 0 auto; }
+        input, textarea { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px; }
+        button { background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; }
+        button:hover { background-color: #45a049; }
+        section { margin-bottom: 40px; }
+        .header-image {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="toybox.html">Toybox</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <header>
+            <h1>Unity Arts Manchester</h1>
+            <p>Creatively challenging inequalities with children, young people and communities</p>
+        </header>
+        <div class="container">
+            <!-- Header Image -->
+            <img src="header-image.jpg" alt="Unity Arts Manchester" class="header-image">
+
+            <!-- Who We Are Section -->
+            <h2>Who We Are</h2>
+            <p>We are a group of people who are motivated to say NO to racism and other social inequalities through working creatively with children, young people, and communities. We are a constituted, voluntary organisation and rely on the active involvement of volunteers of all ages and backgrounds to make all this happen.</p>
+            <p>We employ youth workers, professional artists, and other experienced people to work with us on projects and events. Unity Arts is part of the Unity Organising Group, whose origins lie in the Unity Festival founded to respond to the racist murder of Stephen Lawrence.</p>
+            <p>You too can be involved – <a href="#contact">contact us</a> using the form below.</p>
+
+            <!-- What We Do Section -->
+            <h2>What We Do</h2>
+            <p>Unity Arts uses the arts to empower children, young people, and communities to be creative in their lives and to challenge all forms of inequality and make life better. Rooted in youth and community work, we put the interests and concerns of children, young people, and communities at the heart of our work.</p>
+            <p>Our youth workers work with artists and in partnership with community groups and cultural organisations to bring opportunities to people in South Manchester and beyond.</p>
+
+            <!-- How We Got Started Section -->
+            <h2>How We Got Started</h2>
+            <p>The organisation was established in 1994 in response to an increase in racial violence, the murder of Stephen Lawrence, and the desecration of Jewish gravestones locally. We are a constituted, voluntary organisation that has run festivals and delivered projects to celebrate diversity and promote inclusion within our communities throughout the years.</p>
+            <p>The events of 2020 – the Black Lives Matter movement, and the inequalities highlighted by Covid and racism within our communities – have made us reflect on our work over the years and what we stand for as an organisation and why we started.</p>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact">
+        <header>
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you!</p>
+        </header>
+        <div class="container">
+            <!-- Contact Form -->
+            <form action="https://formspree.io/f/xrbebjkv" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+            <p><a href="#home">Back to Home</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Unity Youth Organization. All rights reserved.</p>
+    </footer>
+</body>
+</html>
